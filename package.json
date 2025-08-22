@@ -1,5 +1,5 @@
 {
-  "name": "react-native-clean-project",
+  "name": "@outblock/react-native-clean-project",
   "version": "4.1.0",
   "engines": {
     "node": ">=10.0.0"
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pmadruga/react-native-clean-project.git"
+    "url": "git+https://github.com/Outblock/react-native-clean-project.git"
   },
   "keywords": [
     "react",
@@ -26,11 +26,17 @@
     "workspace"
   ],
   "author": "Pedro Madruga",
+  "contributors": [
+    "Outblock <hello@outblock.io>"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pmadruga/react-native-clean-project/issues"
+    "url": "https://github.com/Outblock/react-native-clean-project/issues"
   },
-  "homepage": "https://github.com/pmadruga/react-native-clean-project#readme",
+  "homepage": "https://github.com/Outblock/react-native-clean-project#readme",
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "eslint": "8.1.0",
     "eslint-config-prettier": "8.3.0",
