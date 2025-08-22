@@ -1,10 +1,10 @@
 {
   "name": "react-native-clean-project",
-  "version": "4.0.3",
+  "version": "4.1.0",
   "engines": {
     "node": ">=10.0.0"
   },
-  "description": "Automating the cleaning of a React Native Project",
+  "description": "Automating the cleaning of a React Native Project with monorepo and pnpm support",
   "main": "./source/index.js",
   "bin": "./source/index.js",
   "scripts": {
@@ -20,7 +20,10 @@
   "keywords": [
     "react",
     "native",
-    "clean"
+    "clean",
+    "monorepo",
+    "pnpm",
+    "workspace"
   ],
   "author": "Pedro Madruga",
   "license": "MIT",

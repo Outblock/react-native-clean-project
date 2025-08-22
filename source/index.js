@@ -49,9 +49,8 @@ async function main() {
 
   if (options.getWipeNodeModules()) {
     await executeTask(tasks.wipeNodeModules);
-    await executeTask(tasks.yarnCacheClean);
-    await executeTask(tasks.npmInstall);
-    await executeTask(tasks.yarnInstall);
+    await executeTask(tasks.packageManagerCacheClean);
+    await executeTask(tasks.packageManagerInstall);
   }
 
   if (options.getCleanAndroidProject()) {
